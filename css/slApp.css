@@ -1,0 +1,154 @@
+/* 公用样式 */
+.h160{
+	height:160px !important;
+}
+.h170{
+	height:170px !important}
+.h-100{
+	height:100% !important;
+	overflow:hidden
+}
+.h-50{
+	height:50% !important
+}
+.m-b4{margin-bottom:4px !important}
+.appBg{background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADsAAAC/CAYAAABABKR9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2xpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDpkZWZlODM5OS0zNzk1LTliNDgtOGU4Ni1jOGQzNDhmOTc2NWMiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QzMwQTFGNzY4NzhBMTFFNUE2RkVDQzlCNDIxNkY4RjIiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QzMwQTFGNzU4NzhBMTFFNUE2RkVDQzlCNDIxNkY4RjIiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6RTZEMkVGMjVBOTg2RTUxMTlFQ0NDRDFGNTdCQzlBNUEiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ZGVmZTgzOTktMzc5NS05YjQ4LThlODYtYzhkMzQ4Zjk3NjVjIi8+IDwvcmRmOkRl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) no-repeat}
+
+.mt-head{margin-top:50px}/* 标题栏的高度 */
+body{font-family:'黑体'}
+body.bg-orange1{background:url(../images/footer-bg.jpg)  bottom repeat-x;}
+body.bg-blue{background:url(../images/footer-bg-blue.jpg) repeat-x bottom;}
+body.bg-orange{background:#ec7a51}
+body.bg-gray{background:#f0f0f0}
+body.bg-blue-1{background:#06061e}
+body.bg-blue-1 #footer{background:#01458e;margin:0 8px;}
+#footer{min-height:50px}
+#footer .ui-row i{display:inline-block;width:30px;height:30px;background-position:0 -68px;background-size:100%;margin-top:10px;float:left}
+#footer .ui-row a{vertical-align:middle;height:50px;line-height:50px;color:#333}
+#footer .ui-row #app-login{background-position:0 -36px;}
+#footer .ui-row #app-login:active{background-position:0 -36px;}
+#footer .link-1{text-align:center}
+#footer .link-1 p{padding-top:5px;line-height:20px;color:#333;margin-bottom:10px}
+#sl-share{width:30px;height:30px;background-size:100%;background-position:0 0;display:inline-block;position:absolute;right:15px;top:8px}
+
+
+/*顶部导航*/
+.ui-header{height:50px;background-color:#f96331;}
+.ui-header .ui-icon-return{line-height:48px;font-size:20px;}
+.ui-header span.ui-icon-return-des{height:50px;line-height:50px;font-size:16px;position:absolute;left:20px;color:#fff}
+.ui-header h1{height:50px;line-height:50px}
+.ui-header-blue{background-color:#2a5bfb;}
+
+
+/* 街镇焦点图 */
+.slideBox{ position:relative;width:100%;height:170px; overflow:hidden;}
+.slideBox .hd{ position:absolute; height:28px; line-height:28px; bottom:32px; left:0; z-index:1;text-align:center;width:100%;}
+.slideBox .hd li{ display:inline-block; width:10px; height:10px; -webkit-border-radius:50%; border-radius:50%; background:#645729; text-indent:-9999px; overflow:hidden; margin:0 6px;}
+.slideBox .hd li.on{ background:#f96331;}
+.slideBox .bd{ position:relative;z-index:0;}
+.slideBox .bd li{ position:relative;height:170px;overflow:hidden;}
+.slideBox .bd li img{ width:100%;min-height:170px; display:block;}
+.slideBox .bd li a{ -webkit-tap-highlight-color:rgba(0, 0, 0, 0); /* 取消链接高亮 */ }
+.slideBox .bd li .tit{ display:block; width:100%;  position:absolute; top:135px;left:0; text-indent:10px; height:35px; line-height:35px; color:#fff;background:rgba(0,0,0,.5);overflow:hidden;text-overflow:ellipsis;white-space:nowrap; }
+
+/* 九宫格样式覆盖 */
+.sl-jgg .ui-col{
+    padding: 0px;
+    background: #777;
+    text-align: center;
+    box-sizing: border-box;
+    border: 2px solid #ddd;
+    height:80px;
+    line-height:80px;
+    transition:all .3;
+}
+.jk-align .ui-col {line-height: 115px}
+.sl-jgg .ui-col:active{
+	opacity:.9;
+}
+.sl-jgg .ui-col a{color:#fff;display:inline-block;height:100%;width:100%;font-family:'黑体';font-size:14px;overflow:hidden;}
+.sl-jgg .ui-col a span {display: block;padding:0 5px;margin-top:20px;line-height: 18px;}
+.sl-jgg .ui-col .ui-none{
+	border: 1px solid #ddd;
+}
+.sl-jgg .ui-col img{width:100%;min-height:100%}
+.sl-jgg .ui-rowspan-b .ui-col{
+	padding-left:0;
+	padding-right:0;
+	border-width:0px;
+	border-bottom-width:4px;
+	 box-sizing: border-box;
+}
+.sl-jgg .ui-rowspan-b .ui-col:last-child{
+	border-bottom-width:0px
+}
+.sl-jgg .ui-rowspan .ui-col{
+	padding-left:0;
+	padding-right:0;
+	border-width:0px}
+.sl-jgg .sl-ad{
+	max-height:265px;
+	min-height:132px;
+	overflow:hidden
+}
+
+
+/* 部门焦点图 */
+#bm-slider .slideBox{ position:relative;width:100%;height:100%; overflow:hidden;}
+#bm-slider .slideBox .hd{ position:absolute; height:28px; line-height:28px; bottom:0px; left:0; z-index:1;text-align:center;width:100%;}
+#bm-slider .slideBox .hd li{ display:inline-block; width:10px; height:10px; -webkit-border-radius:50%; border-radius:50%; background:#645729; text-indent:-9999px; overflow:hidden; margin:0 6px;}
+#bm-slider .slideBox .hd li.on{ background:#f96331;}
+#bm-slider .slideBox .bd{ position:relative;z-index:0;}
+#bm-slider .slideBox .bd li{ position:relative;height:170px;overflow:hidden;}
+#bm-slider .slideBox .bd li img{ width:100%;min-height:170px; display:block;}
+#bm-slider .slideBox .bd li a{ -webkit-tap-highlight-color:rgba(0, 0, 0, 0); /* 取消链接高亮 */ }
+
+
+/* 部门九宫格背景图 */
+#big-color-blue {background-color: #06071e;color: #fff}
+.jggBg-1 .ui-col{background:url(../images/jgg-bg-1.png) no-repeat; background-size:100% 100%}
+.jggBg-2 .ui-col{background:url(../images/jgg-bg-2.png) no-repeat; background-size:100% 100%}
+.jggBg-3 .ui-col{background:url(../images/jgg-bg-3.png) no-repeat; background-size:100% 100%}
+.sl-jgg .lines-2{line-height:auto;position:relative;}/* 九宫格2行文字居中 */
+.sl-jgg .lines-2 a{-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);position:absolute; 
+  top: 50%; left: 50%;height:auto;line-height:24px}
+body.bg-orange .sl-jgg .ui-col{border-color:#ffa486}
+body.bg-blue-1 .sl-jgg .ui-col{border-color:#06061e;border-width:4px}
+body.bg-blue-1  #footer .link-1 p{color:#fff;}
+body.bg-blue-1  #footer a{color:#fff;}
+.yygk {background:url(../images/yygk-icon.png) no-repeat center 16%;background-size: 50% 35px;}
+.ksjs {background:url(../images/ksjs-icon.png) no-repeat center 16%;background-size: 50% 35px;}
+.dtxx {background:url(../images/dtxx-icon.png) no-repeat center 16%;background-size: 50% 35px;}
+.zjtj {background:url(../images/zjtj-icon.png) no-repeat center 16%;background-size: 50% 35px;}
+.xjsb {background:url(../images/xjsb-icon.png) no-repeat center 16%;background-size: 50% 35px;}
+.tszl {background:url(../images/tszl-icon.png) no-repeat center 16%;background-size: 50% 35px;}
+.yygh {background:url(../images/yygh-icon.png) no-repeat center 16%;background-size: 50% 35px;}
+.wbwx {background:url(../images/wbwx-icon.png) no-repeat center 16%;background-size: 50% 35px;}
+.mt-head li a {display: block;width: 100%;height: 100%}
+.mt-head li a img {width: 100%;height: 100%}
+/*列表*/
+.ui-row-ulbig{background: url("../images/jz_big.jpg");background-size: cover }
+.ui-col-lipad {padding: 10px 0 10px 15px;margin-top:10px;background: rgba(0,0,0,0.5)}
+.ui-col-lipad:first-child{margin-top: 15px}
+.ui-col-lipad:last-child {margin-bottom: 20px;}
+.ui-col-lipad a {display: block;width: 100%;height: 100%;}
+.ui-col-lipad a img{width: 100%;height: 100px;vertical-align: middle;-webkit-border-radius:3px;border-radius:3px; }
+.ui-col-lipad a{color: #fff;}
+.no-bigrgba {background-color: #fff;color: #161616}
+.no-bigrgba a span {color: #161616}
+.ui-flex-pack-center .tcg-hd {margin-top: 20%}
+.ui-tab-content .headpic {display: block;width: 100%;height: 165px;}
+.ui-tab-content .headpic img {width: 100%;height: 165px;}
+/*金融银行列表*/
+#yh-body {background-color: #fff;background-image:none; }
+.ui-tab-nav li {background-color: #f7f7f7;color: #474747}
+.ui-tab-nav li.current {background-color: #fff;color: #f86431;border-bottom:none }
+.ui-ul-pad{padding-top:10px; }
+.ui-li-pad{overflow: hidden}
+.ui-li-pad .ui-col {overflow: hidden}
+.ui-col-10 a{display: block;width: 100%;height: 100%}
+.ui-col-10 a img {margin-top:10px;width: 100%;height:100px;border-radius: 3px;-webkit-border-radius:3px}
+.yh-caption {border-bottom: 1px solid #b5b5b5;margin-left: 15px}
+.yh-caption a {display:block}
+.yh-caption h1 {color:#161616 }
+.yh-caption p{color: #9d9d9d}

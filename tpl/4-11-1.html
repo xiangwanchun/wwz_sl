@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <title>4-11健康-医院微网站</title>
+    <link rel="stylesheet" href="../lib/css/frozen.css">
+    <link rel="stylesheet" href="../css/slApp.css">
+    <script src="../lib/js/zepto.min.js"></script>
+    <script src="../lib/js/TouchSlide.1.1.js"></script>
+    <script src="../lib/js/frozen.js"></script>
+    <style>
+
+    </style>
+</head>
+<body class="bg-blue-1">
+	<header class="ui-header ui-header-positive ui-border-b ui-header-blue">
+        <a href="#"><i class="ui-icon-return" onclick="history.back()"></i><span class="ui-icon-return-des">返回</span></a><h1>健康</h1><span class="appBg" id="sl-share"></span>
+    </header>
+
+
+	<!-- 九宫格 -->
+	<ul class="ui-row sl-jgg mt-head">
+		<li class="ui-col ui-col-50 h160" style="overflow:hidden"><a href="#"><img src="../images/yywwz01.jpg" alt=""></a></li>
+		<li class="ui-col ui-col-50 h160" style="border-width:0px">
+	    	<ul class="ui-row  h-100 jk-align">
+	    		<li class="ui-col ui-col-50 h-50 " style="background-color: #00468e"><a href="#" class="yygk">医院概况</a></li>
+	    		<li class="ui-col ui-col-50 h-50" style="background-color: #49b131"><a href="#" class="ksjs">科室介绍</a></li>
+	    		<li class="ui-col ui-col-50 h-50" style="background-color: #49b131"><a href="#" class="dtxx">动态信息</a></li>
+	    		<li class="ui-col ui-col-50 h-50" style="background-color: #00468e"><a href="#" class="zjtj">专家推荐</a></li>
+	    	</ul>
+	    </li>
+	    <li class="ui-col ui-col-100 h170" style="background:#df3b06;" id="bm-slider">
+	    	<!-- 焦点图 Start ================================ -->
+			<div id="slideBox" class="slideBox" >
+				<div class="bd">
+					<ul>
+						<li>
+							<a class="pic" href="#"><img  src="../images/1.jpg" /></a>
+						</li>
+						<li>
+							<a class="pic" href="#"><img  src="../images/2.jpg"/></a>
+						</li>
+						<li>
+							<a class="pic" href="#"><img src="../images/3.jpg"/></a>
+						</li>
+						<li>
+							<a class="pic" href="#"><img src="../images/4.jpg"/></a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="hd">
+					<ul></ul>
+				</div>
+			</div>
+			<!-- 焦点图 End ================================ -->
+	    </li>
+	    <li class="ui-col ui-col-50 h160" style="border-width:0px">
+	    	<ul class="ui-row  h-100 jk-align">
+	    		<li class="ui-col ui-col-50 h-50" style="background-color: #00468e"><a href="#" class="xjsb">先进设备</a></li>
+	    		<li class="ui-col ui-col-50 h-50" style="background-color: #49b131"><a href="#" class="tszl">特色治疗</a></li>
+	    		<li class="ui-col ui-col-50 h-50" style="background-color: #49b131"><a href="#" class="yygh">预约挂号</a></li>
+	    		<li class="ui-col ui-col-50 h-50" style="background-color: #00468e"><a href="#" class="wbwx">微博微信</a></li>
+	    	</ul>
+	    </li>
+	    <li class="ui-col ui-col-50 h160" style="background:#837c49"><a href="#"><img src="../images/yywwz03.jpg" alt=""></a></li>
+	    <li class="ui-col ui-col-50 h160 m-b4" style="overflow:hidden"><a href="#"><img src="../images/yywwaz04.jpg" alt=""></a></li>
+		<li class="ui-col ui-col-50 h160 m-b4" style="border-width:0px;">
+	    	<ul class="ui-row  h-100">
+	    		<li class="ui-col ui-col-50 h-50" style="background:#ff8f5b;"><a href="#"><span>就医<br>优惠政策</span></a></li>
+	    		<li class="ui-col ui-col-50 h-50" style="background:#264ba6"><a href="#"><span>住院<br>报销流程</span></a></li>
+	    		<li class="ui-col ui-col-50 h-50" style="background:#ff8f5b;"><a href="#"><span style="margin-top: 26px">联系我们</span></a></li>
+	    		<li class="ui-col ui-col-50 h-50" style="background:#264ba6"><a href="#"><span style="margin-top: 26px">留言反馈</span></a></li>
+	    	</ul>
+	    </li>
+	</ul>
+
+	<footer id="footer" >
+		 <ul class="ui-row ui-whitespace">
+	        <li class="ui-col ui-col-25 login-1"><a href="#"><i class="appBg" id="app-login"></i><span>登陆</span></a></li>
+		    <li class="ui-col ui-col-25 login-1"><a href="#"><i class="appBg" id="app-registered"></i><span>注册</span></a></li>
+		    <li class="ui-col ui-col-50 link-1"><p>双流电视台<br>http://www.sltv.net/</p></li>
+	    </ul>
+	</footer>
+
+ 	<script type="text/javascript">
+		TouchSlide({ 
+			slideCell:"#slideBox",
+			titCell:".hd ul", //开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
+			mainCell:".bd ul", 
+			effect:"leftLoop", 
+			autoPage:true //自动分页
+		});
+	</script>
+</body>
+</html>

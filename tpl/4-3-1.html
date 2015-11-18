@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <title>4-2部门-1微网站</title>
+    <link rel="stylesheet" href="../lib/css/frozen.css">
+    <link rel="stylesheet" href="../css/slApp.css">
+    <script src="../lib/js/zepto.min.js"></script>
+    <script src="../lib/js/TouchSlide.1.1.js"></script>
+    <script src="../lib/js/frozen.js"></script>
+    <style>
+
+    </style>
+</head>
+<body class="bg-orange1">
+	<header class="ui-header ui-header-positive ui-border-b">
+        <a href="#"><i class="ui-icon-return" onclick="history.back()"></i><span class="ui-icon-return-des">返回</span></a><h1>街镇</h1><span class="appBg" id="sl-share"></span>
+    </header>
+	<!-- 焦点图 Start ================================ -->
+	<div id="slideBox" class="slideBox mt-head">
+
+		<div class="bd">
+			<ul>
+				<li>
+					<a class="pic" href="#"><img src="../images/1.jpg" /></a>
+					<a class="tit" href="#">汤唯新片大卖请剧组吃回锅肉</a>
+				</li>
+				<li>
+					<a class="pic" href="#"><img src="../images/2.jpg"/></a>
+					<a class="tit" href="#">范冰冰黄晓明亲密无间</a>
+				</li>
+				<li>
+					<a class="pic" href="#"><img src="../images/3.jpg"/></a>
+					<a class="tit" href="#">一周体育快报</a>
+				</li>
+				<li>
+					<a class="pic" href="#"><img src="../images/4.jpg"/></a>
+					<a class="tit" href="#">金正恩携娇妻视察</a>
+				</li>
+			</ul>
+		</div>
+
+		<div class="hd">
+			<ul></ul>
+		</div>
+	</div>
+
+	<!-- 焦点图 End ================================ -->
+
+	<!-- 九宫格 -->
+	<ul class="ui-row sl-jgg">
+	    <li class="ui-col ui-col-67"><a href="#"><img src="../images/t-1.jpg" alt=""></a></li>
+	    <li class="ui-col ui-col-33" style="background:#d9bc00"><a href="#">简介</a></li>
+	    <li class="ui-col ui-col-50" style="background:#ff9e23"><a href="#">视频专区</a></li>
+	    <li class="ui-col ui-col-50" style="background:#ffa277"><a href="#">图片新闻</a></li>
+		 <li class="ui-col ui-col-100 sl-ad" style="background:#ffa277;max-height:265px;min-height:132px;overflow:hidden"><a href="#"><img src="../images/t-1.jpg" alt=""></a></li>
+		<li class="ui-col ui-col-33" style="background:#fcdb70"><a href="#">政策法规</a></li>
+	    <li class="ui-col ui-col-33" style="background:#e74e8f"><a href="#">投诉咨询</a></li>
+	    <li class="ui-col ui-col-33" style="background:#e1ad33"><a href="#">微信微博</a></li>
+	    <li class="ui-col ui-col-33" style="background:#ff8f5b">
+	    	<a href="#">服务指南</a>
+	    </li>
+	    <li class="ui-col ui-col-67">
+	    	<a class="ui-row h-100">
+				<img src="../images/t-2.jpg" alt=""/>
+	    	</a>
+	    </li>
+	    <li class="ui-col ui-col-33" style="background:#264ba6"><a href="#">通知通告</a></li>
+	    <li class="ui-col ui-col-33" style="background:#bccf88"><a href="#">执法动态</a></li>
+	    <li class="ui-col ui-col-33" style="background:#ff8247"><a href="#">队伍建设</a></li>
+	</ul>
+	<footer id="footer">
+		 <ul class="ui-row ui-whitespace">
+	        <li class="ui-col ui-col-25 login-1"><a href="#"><i class="appBg" id="app-login"></i><span>登陆</span></a></li>
+		    <li class="ui-col ui-col-25 login-1"><a href="#"><i class="appBg" id="app-registered"></i><span>注册</span></a></li>
+		    <li class="ui-col ui-col-50 link-1"><p>双流电视台<br>http://www.sltv.net/</p></li>
+	    </ul>
+	</footer>
+
+ 	<script type="text/javascript">
+		TouchSlide({ 
+			slideCell:"#slideBox",
+			titCell:".hd ul", //开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
+			mainCell:".bd ul", 
+			effect:"leftLoop", 
+			autoPage:true //自动分页
+		});
+	</script>
+</body>
+</html>
