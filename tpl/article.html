@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <title>新闻</title>
+    <link rel="stylesheet" href="../lib/css/frozen.css">
+    <link rel="stylesheet" href="../css/slApp.css">
+    <script src="../lib/js/zepto.min.js"></script>
+    <script src="../lib/js/TouchSlide.1.1.js"></script>
+    <script src="../lib/js/frozen.js"></script>
+    <script>
+        $(document).ready(function(){
+          $('#sl-more').tap(function(){
+              $('.sl-down-menu').toggle()
+          })
+        })
+    </script>
+
+</head>
+<body>
+<header class="ui-header ui-header-positive ui-border-b">
+    <a href="#"><i class="ui-icon-return" onclick="history.back()"></i><span class="ui-icon-return-des">返回</span></a>
+    <h1>新闻</h1>
+    <span class="more" id="sl-more">...</span>
+    <div class="ui-row-flex ui-row-flex-ver sl-down-menu" style="display: none">
+        <div class="ui-col white-bott-bor "><a href="#">首页</a></div>
+        <div class="ui-col "><a href="#">分享</a></div>
+    </div>
+
+</header>
+
+<div class="article-head mt-head ui-whitespace">
+    <div class="article-tit ui-nowrap-multi">
+        中国女排时隔11年再夺世界冠军获伦敦奥运会资格
+    </div>
+    <p class="article-time ui-nowrap-flex " style="margin-top: 5px">2015-11-26 10:59</p>
+    <p class="article-source ui-nowrap-flex ">来源:四川新闻网</p>
+</div>
+<div class="ui-whitespace" style="margin-top: 15px">
+    <div class="article-core">
+        <span class="article-bold">核心提示</span>
+        北京时间今天晚上,2015女排世界杯的收官战在日本名古屋打响.最终中国女排击败东道主日本,第四次将世界杯的冠军收入囊中,同时也获得明年出战里约好运会的出站资格
+    </div>
+    <div class="article-description">
+        中国外交部欧洲司司长刘海星对记者透露，习近平主席当天同杜达总统的会谈超出预计时间，
+        ，今后在留学生互派、文化设施建立、旅游方面会进一步加强合作，波方愿在简化中国公民赴波兰签证手续方面作出更大努力。
+        波方希望更多向中国出口农产品等波方优势产品。中波文化交往活跃
+        <img src="../images/art52.jpg">
+        谈得“很深入、很广泛”，重点就双边合作交换意见。波方表示，非常重视习近平主席提出的“一带一路”倡议，
+        波兰地处欧洲交通物流枢纽，愿在“一带一路”建设合作中发挥重要作用，将“一带一路”倡议同波兰国家战略对接。中波贸易在中东欧国家中是最多的，
+    </div>
+</div>
+
+</body>
+</html>
