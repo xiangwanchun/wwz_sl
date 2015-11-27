@@ -191,7 +191,7 @@ body.bg-blue-1  #footer a{color:#fff;}
 .action-link .five-px-radius img {border-radius:5px }
 .action-link .desc {padding-left: 10px;box-sizing: border-box}
 .action-link h2 {line-height: 22px; font-size: 16px;color: #171717}
-.action-link .desc .description {height:38px;line-height: 18px; font-size: 14px; color:#b3b3b3 }
+.action-link .desc .description {height:38px;line-height: 18px; font-size: 14px; color:#b3b3b3;margin-top:5px}
 .action-link .desc .info {text-align: right;line-height: 24px;font-size: 14px;color:#b3b3b3}
 .list-img .group {margin-top: 5px}
 .list-img .group .group-img-one {height: 75px;}
